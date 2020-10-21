@@ -1,9 +1,11 @@
 html {
+    display: flex;
     height: 100%;
+    width: 100%;
 }
 body {
-    display: flexbox;
-    width: auto;
+    display: flex;
+    width: inherit;
     min-height: 100vh;
     padding: 0;
     margin: 0;
@@ -105,6 +107,7 @@ main {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
+    grid-column-gap: 20px;
     grid-template-areas: 
     "search search"
     "button1 button2";
